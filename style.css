@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.nav_container {
+  height: 90px;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo_container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 30%;
+}
+.nav_links {
+  padding-left: 250px;
+  align-items: center;
+  display: flex;
+  width: 70%;
+}
+
+.nav_links li {
+  list-style: none;
+  margin-left: 20px;
+}
+.nav_links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  margin-left: 18px;
+}
+
+.nav_links a:hover {
+  color: red;
+}
+
+/* hero */
+
+.hero_section {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #ccc;
+  padding: 30px 20px;
+}
+
+.img_banner {
+  background-image: url("images/left-banner-image.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero_text {
+  padding-left: 25px;
+  justify-content: flex-start;
+  color: white;
+  height: 100px;
+  width: 100%;
+}
+
+.hero_text h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.hero_text p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-top: 10px;
+  font-weight: 600;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  background: transparent;
+}
+.hero_left {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(118, 166, 209);
+  height: 550px;
+  width: 600px;
+}
+.box {
+  display: grid;
+}
