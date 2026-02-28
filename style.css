@@ -861,6 +861,7 @@ img {
     right: 0;
     background-color: #ffffff;
     border-top: 1px solid #e0e8ec;
+    border-bottom: 2px solid #ccc;
     padding: 20px;
     z-index: 998;
   }
